@@ -172,3 +172,8 @@ tensorboard --logdir_spec=run1:"./hpc/logs/log1",run2:"./hpc/logs/log2",run3:"./
 
 
 当使用.fit_generator生成验证数据时, TensorBoard callback does not create histograms .
+
+
+### 梯度爆炸问题
+
+https://cloud.tencent.com/developer/article/1661001
