@@ -177,3 +177,4 @@ tensorboard --logdir_spec=run1:"./hpc/logs/log1",run2:"./hpc/logs/log2",run3:"./
 ### 梯度爆炸问题
 
 https://cloud.tencent.com/developer/article/1661001
+https://stackoverflow.com/questions/69427103/gradient-exploding-problem-in-a-graph-neural-network
