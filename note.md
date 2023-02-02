@@ -167,7 +167,7 @@ tensorboard --logdir="./hpc/logs" --port=6006
 
 `ssh -L 16524:localhost:6006 e1097784@atlas8.nus.edu.sg`
 
-tensorboard --logdir_spec=run1:"./hpc/logs/log1",run2:"./hpc/logs/log2",run3:"./hpc/logs/log3",run4:"./hpc/logs/log4" --port=6006
+tensorboard --logdir_spec=run1:"/hpctmp/e1097784/logs_ReLstm_adam/logs/log1",run2:"./hpctmp/e1097784/logs_ReLstm_adam/logs/log2",run3:"/hpctmp/e1097784/logs_ReLstm_adam/logs/log3",run4:"/hpctmp/e1097784/logs_ReLstm_adam/logs/log4" --port=6006
 
 
 
