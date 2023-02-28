@@ -178,3 +178,7 @@ tensorboard --logdir_spec=run1:"/hpctmp/e1097784/logs_ReLstm_adam/log1",run2:"./
 
 https://cloud.tencent.com/developer/article/1661001
 https://stackoverflow.com/questions/69427103/gradient-exploding-problem-in-a-graph-neural-network
+
+### jupyter notebook直接运行py程序
+%run run.py
+
