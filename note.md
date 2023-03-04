@@ -181,4 +181,17 @@ https://stackoverflow.com/questions/69427103/gradient-exploding-problem-in-a-gra
 
 ### jupyter notebook直接运行py程序
 %run run.py
+### jupyter notebook中debug
 
+from IPython.core.debugger import set_trace
+
+for i in range(4):
+  for j in range(i+1):
+    set_trace()
+    print('*',end='')
+    
+print()
+重要命令：
+n -> 下一行
+c -> 继续直到下一个断点
+q -> 退出
