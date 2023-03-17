@@ -163,6 +163,8 @@ https://blog.csdn.net/weixin_44503976/article/details/108820547?spm=1001.2101.30
 
 `singularity exec -e /app1/common/singularity-img/3.0.0/tensorflow_2.9.1_cuda_11.8.0-cudnn8-ubuntu20.04-py38.sif bash`
 
+singularity exec /hpctmp/e1097784/sumo_img/sumo.sif bash
+
 tensorboard --logdir="./hpc/logs" --port=6006
 
 `ssh -L 16524:localhost:6006 e1097784@atlas8.nus.edu.sg`
@@ -198,6 +200,6 @@ print()
 # q -> 退出
 ```
 
-###常用的linux命令
+### 常用的linux命令
 解压：tar -xvf,unzip
 
