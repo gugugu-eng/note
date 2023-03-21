@@ -203,3 +203,5 @@ print()
 ### 常用的linux命令
 解压：tar -xvf,unzip
 
+### 转成py文件
+jupyter nbconvert --to script your_notebook.ipynb
