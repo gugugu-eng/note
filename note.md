@@ -205,3 +205,6 @@ print()
 
 ### 转成py文件
 jupyter nbconvert --to script your_notebook.ipynb
+
+### sklearn
+pip install scikit-learn
