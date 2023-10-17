@@ -208,3 +208,10 @@ jupyter nbconvert --to script your_notebook.ipynb
 
 ### sklearn
 pip install scikit-learn
+
+
+### ns3
+./ns3 run scratch/linear-mesh/cw -dryRun true
+./ns3 run scratch/linear-mesh/cw
+
+
