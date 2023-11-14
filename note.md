@@ -142,6 +142,9 @@ conda info --env
 //查看conda的安装包
 conda list
 
+//查看cuda版本
+nvcc --version
+
 ```
 
 ## 读写一个csv文件
