@@ -37,7 +37,7 @@ qdel <task-id>
 
 ```shell
 # log on HPC
-ssh e1097784@atlas9.nus.edu.sg
+ssh e0787961@atlas9.nus.edu.sg
 
 # submint the jupyter job
 qsub jupyter.pbs
