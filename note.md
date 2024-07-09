@@ -217,4 +217,19 @@ pip install scikit-learn
 ./ns3 run scratch/linear-mesh/cw -dryRun true
 ./ns3 run scratch/linear-mesh/cw
 
+### ChongQing Server
+##服务器通过本地vpn转发流量
+
+export https_proxy=http://10.242.28.198:7899
+export http_proxy=http://10.242.28.198:7899
+
+##本地通过jupyter notebook访问服务器
+本地：ssh -L 1234:localhost:8888 yanghaha@10.242.187.58
+浏览器打开 http://localhost:1234
+
+服务器：conda activate feddat
+       jupyter notebook
+
+
+
 
